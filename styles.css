@@ -1,0 +1,83 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    --colorText: #ffbb00;
+    --colorBack: #1030AD;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #0680d1;
+    color: var(--colorText);
+    
+}
+.title{
+
+    width: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+.logo{
+    
+    width: 300px;
+}
+.titleForm{
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+.areaCadastro{
+    background-color: var(--colorBack);
+    border: solid 2px var(--colorText);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 30px 20px 30px;
+
+}
+.forms{
+    font-weight: bolder;
+}
+.space{
+    padding-top: 10px;
+}
+.space1{
+    padding-left: 131px;
+}
+.space2{
+    padding-left: 142px;
+}
+.space4{
+    padding-bottom: 2px;
+}
+.scape5{
+    padding-bottom: 4px;
+}
+.space6{
+    padding-left: 59px;
+}
+input{
+    color: white;
+    background-color:  #0680d1;
+    border-radius:5%;
+    border: solid 1px var(--colorText);
+    
+}
+.but{
+    padding: 15px 0px 0px 380px;
+}
+.sub{
+    font-size: 20px;
+    color: var(--colorText);
+    background-color: var(--colorBack);
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.788);
+ }
+ 
+ 
+ 
