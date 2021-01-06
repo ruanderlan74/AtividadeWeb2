@@ -59,6 +59,9 @@ body{
 .space6{
     padding-left: 59px;
 }
+.space7{
+    padding-left:154px;
+}
 input{
     color: white;
     background-color:  #0680d1;
@@ -79,5 +82,6 @@ input{
     color: rgba(255, 255, 255, 0.788);
  }
  
- 
- 
+ input[type = "radio"]:checked{
+    background-color: var(--colorText);
+}
